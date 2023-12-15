@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* left-Side Starting */
+  .leftSide {
+    width: 35%;
+    padding: 30px 10px 0 100px;
+  }
+  
+  /* Header start */
+  .leftNavbar {
+    display: flex;
+    gap: 100px;
+  }
+  
+  .leftNavbar ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin-top: 5px;
+  }
+  
+  .leftNavbar ul li a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+  }
+  /* header end */
+  
+  /* main styling start */
+  .main {
+    margin-top: 120px;
+  }
+  
+  .icon-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .heading h1 {
+    font-size: 4.2rem;
+  }
+  
+  .heading h1 img {
+    width: 120px;
+    height: 70px;
+  }
+  
+  .get-started-btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .get-started-btn button {
+    padding: 15px 25px;
+    background: rgb(63, 63, 245);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .get-started-btn i {
+    font-size: 2.7rem;
+  }
+  
+  p {
+    margin: 30px 100px 0 0;
+    font-size: 1.2rem;
+  }
+  /* left-Side end */
+  
+  /* reght-Side starting */
+  .rightSide {
+    width: 65%;
+    height: 100vh;
+    padding-top: 35px;
+    background-image: url("../img/lady-img\ .png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  /* Header start */
+  .rightNavbar ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+  }
+  
+  .rightNavbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  /* Header end */
+  
+  .image-slide-btns {
+    float: right;
+    /* bottom: 100px; */
+    margin-right: 50px;
+    margin-top: 800px;
+  }
+  
+  .image-slide-btns .btns {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: larger;
+    font-weight: 600;
+    border: 1px solid black;
+  }
+  
+  .rightNavbar ul {
+    margin-left: 80px;
+  }
+  /* reght-Side end */
